@@ -3,25 +3,12 @@
     "relay": {
       "main": "src/relay/main.mo",
       "type": "motoko"
-    },
-    "relay_assets": {
-      "dependencies": [
-        "relay"
-      ],
-      "frontend": {
-        "entrypoint": "src/relay_assets/src/index.html"
-      },
-      "source": [
-        "src/relay_assets/assets",
-        "dist/relay_assets/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
     "build": {
       "args": "",
-      "packtool": ""
+      "packtool": "vessel sources"
     }
   },
   "dfx": "0.8.1",
